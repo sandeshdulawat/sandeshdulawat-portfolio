@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 function HeroSection() {
   return (
     <div className="bg-[#111827]">
-      <div className="max-w-screen-xl mx-auto w-full h-full  p-16 flex flex-col-reverse sm:flex-row sm:justify-between md:flex-row md:justify-between text-white items-center">
+      <div className="max-w-screen-lg md:max-w-screen-xl mx-auto w-full h-full px-8 py-16 flex flex-col-reverse sm:flex-row sm:justify-between md:flex-row md:justify-between text-white items-center">
         <div className="space-y-2 sm:space-y-2 md:space-y-5">
           <h1 className="text-white font-bold text-3xl sm:text-4xl md:text-5xl">
             Hi, I am <span className="text-blue-500">Sandesh.</span>{" "}
@@ -33,8 +33,8 @@ function HeroSection() {
             </Link>
           </div>
         </div>
-        <div>
-          <img className="w-full" src={profileimage} alt="" />
+        <div className="flex">
+          <img className="w-11/12 md:w-full mx-auto" src={profileimage} alt="" />
         </div>
       </div>
     </div>

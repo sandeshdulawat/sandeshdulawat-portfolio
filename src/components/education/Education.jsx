@@ -23,7 +23,7 @@ function Education() {
 
   return (
     <div className="bg-[#111827]">
-      <div className="py-20 px-5 md:px-0 md:max-w-5xl mx-auto">
+      <div className="py-20 md:py-32 px-5 md:px-0 md:max-w-5xl mx-auto">
         <div className="flex flex-col mb-5">
           <h1 className="font-bold text-white text-4xl ">Skills</h1>
           <p className="text-gray-500 md:w-3/4 py-5">Web developer proficient in React, MongoDB, JavaScript, HTML, CSS. Currently studying at Coding Ninjas (2022-2023) to enhance coding skills further.</p>
