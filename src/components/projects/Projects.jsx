@@ -30,7 +30,7 @@ function Projects() {
               </p>
               <div className="space-x-3">
                 <a
-                  href="#"
+                  href="https://react-complete-project-1001.netlify.app/" target="blank_"
                   className="inline-flex items-center px-2 py-2 md:px-3 md:py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 align-center"
                 >
                   Demo
@@ -50,7 +50,7 @@ function Projects() {
                   </svg>
                 </a>
                 <a
-                  href="#"
+                  href="https://github.com/sandeshdulawat/project-1001-react" target="blank_"
                   className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
                 >
                   Source Code
