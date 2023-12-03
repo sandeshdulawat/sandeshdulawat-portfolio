@@ -1,4 +1,5 @@
 import React from "react";
+import Modal from "../modal/Modal";
 
 function Navbar() {
   return (
@@ -35,7 +36,7 @@ function Navbar() {
           </svg>
         </button>
         <div className="hidden w-full md:block md:w-auto " id="navbar-default">
-          <ul className="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 bg-[#111827] ">
+          <ul className="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 bg-[#111827] items-center">
             <li>
               <a
                 href="#"
@@ -67,6 +68,15 @@ function Navbar() {
                 className="block py-2 px-3 text-white rounded md:border-0 md:p-0 hover:text-blue-700"
               >
                 Contact
+              </a>
+            </li>
+            <li>
+              <a
+                href="#secretcode"
+                className="block py-2 px-3 text-white rounded md:border-0 md:p-0 hover:text-red-700"
+              >
+                
+<Modal />
               </a>
             </li>
             {/* <li>

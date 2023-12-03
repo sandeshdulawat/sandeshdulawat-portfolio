@@ -4,7 +4,7 @@ import decorum from "../../assets/images/decorum.png";
 function Projects() {
   return (
     <div className="bg-[#111827] items-center"> 
-      <div className=" py-10 md:max-w-5xl items-center mx-auto" id="projects">
+      <div className=" py-10 md:pt-32 md:max-w-5xl items-center mx-auto border-b-2 border-gray-600" id="projects">
         <div className="px-5 md:px-0">
           <h1 className="font-bold text-white text-4xl ">Projects</h1>
         </div>
