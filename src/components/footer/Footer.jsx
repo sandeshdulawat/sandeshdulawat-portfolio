@@ -39,7 +39,7 @@ function Footer() {
           </Link>
         </div>
         <div>
-            <p className="text-sm text-gray-400">©2023 All Right Reserved.</p>
+            <p className="text-sm text-gray-400">©2023 All Right Reserved By Sandesh Dulawat.</p>
         </div>
       </div>
     </div>
