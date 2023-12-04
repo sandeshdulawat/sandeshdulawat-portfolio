@@ -26,7 +26,7 @@ function Projects() {
               <p className="mb-3 md:text-sm text-gray-400">
                 Complete website for a furniture store. This website is built
                 with React.js, Node.js, Express.js, MongoDB, and Tailwind CSS.
-                The website is responsive and has a clean and clean design.
+                The website is responsive and has a clean and modern design.
               </p>
               <div className="space-x-3">
                 <a
