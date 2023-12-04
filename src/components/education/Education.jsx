@@ -22,7 +22,7 @@ function Education() {
           };
 
   return (
-    <div className="bg-[#111827]">
+    <div className="bg-[#111827]" id="skills">
       <div className="py-20 md:pt-32 px-5 md:px-0 md:max-w-5xl mx-auto border-b-2 border-gray-600">
         <div className="flex flex-col mb-5">
           <h1 className="font-bold text-white text-4xl ">Skills</h1>
