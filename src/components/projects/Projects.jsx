@@ -1,6 +1,6 @@
 import React from "react";
-import decorum from "../../assets/images/decorum.png";
-import mazeStudio from "../../assets/images/mazestudio.png";
+import decorum from "../../assets/images/decorum.webp";
+import mazeStudio from "../../assets/images/mazestudio.webp";
 
 function Projects() {
   return (
