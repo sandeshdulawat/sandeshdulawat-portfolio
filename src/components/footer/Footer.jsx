@@ -5,7 +5,6 @@ import {
   Github,
   Instagram,
   Linkedin,
-  VenetianMask,
 } from "lucide-react";
 import { Link } from "react-router-dom";
 
@@ -13,8 +12,7 @@ function Footer() {
   return (
     <div className="bg-[#111827] text-center text-white space-y-5" id="footercontact">
       <div className="flex items-center justify-center space-x-1 py-5">
-        <VenetianMask size={36} className="text-blue-500"/>
-        <h1 className="text-2xl">Portfolio</h1>
+        <h1 className="text-2xl">Contact</h1>
       </div>
       <div className="flex flex-col sm:flex-row md:flex-row justify-center sm:space-x-8 text-center text-gray-300 space-y-1 items-center ">
         <div className="flex text-center justify-center items-center"><a href="/">Email Address </a><ArrowUpRight  size={16} className="text-blue-500" /></div>

@@ -1,6 +1,7 @@
 import React from "react";
 import Modal from "../modal/Modal";
 import { initFlowbite } from "flowbite";
+import { VenetianMask } from "lucide-react";
 
 function Navbar() {
   return (
@@ -9,6 +10,7 @@ function Navbar() {
 <nav className="bg-[#111827] sticky top-0 w-full ">
   <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4 ">
     <a href="/" className="flex items-center space-x-3 rtl:space-x-reverse">
+    <VenetianMask size={36} className="text-blue-500"/>
         <span className="self-center text-2xl font-semibold whitespace-nowrap text-white">Portfolio</span>
     </a>
     <button data-collapse-toggle="navbar-default" type="button" className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden " aria-controls="navbar-default" aria-expanded="false">
