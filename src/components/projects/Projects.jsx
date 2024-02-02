@@ -87,7 +87,7 @@ function Projects() {
             <div className="flex flex-col justify-between px-4 leading-normal bg-[#1f2937] space-y-5 rounded-lg py-5">
               <div>
                 <h5 className="mb-2 text-xl md:text-2xl lg:text-3xl font-bold tracking-tight text-gray-900 text-white ">
-                  Maze Studio 2023
+                  Design Studio 2023
                 </h5>
                 <h5 className="mb-2 md:text-md tracking-tight text-gray-900 text-white ">
                   Architecture Design
@@ -99,7 +99,7 @@ function Projects() {
                 The website is responsive and has a clean & modern design.
               </p>
               <div className="space-x-3">
-                <a
+                {/* <a
                   href="https://www.mazestudio.in/" target="blank_"
                   className="inline-flex items-center px-2 py-2 md:px-3 md:py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 align-center"
                 >
@@ -118,7 +118,7 @@ function Projects() {
                       d="M13.5 6H5.25A2.25 2.25 0 003 8.25v10.5A2.25 2.25 0 005.25 21h10.5A2.25 2.25 0 0018 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25"
                     />
                   </svg>
-                </a>
+                </a> */}
                 <a
                   href="https://github.com/sandeshdulawat/project-1001-react" target="blank_"
                   className="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"

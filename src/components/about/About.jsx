@@ -9,7 +9,7 @@ function About() {
           <p className="text-gray-500">
             <span className=" text-white tracking-wider">I,m</span>{" "}
             a Web Developer from Madhya Pradesh, India. who completed his
-            front-end developer course at{" "}
+            full stack developer course at{" "}
             <span><a href="https://www.codingninjas.com/" target="blank_" className="text-blue-800 underline">Coding-Ninjas</a></span> and
             pursuing full stack Developer course at{" "}
             <span><a href="https://www.codingninjas.com/" target="blank_" className="text-blue-800 underline">Coding-Ninjas</a></span>.
@@ -17,7 +17,7 @@ function About() {
           <p className="text-gray-500">
             I'm currently looking for a{" "}
             <span className="text-gray-400">3-6 month internship</span>{" "}
-            somewhere around as front-end Developer.{" "}
+            somewhere around as web Developer.{" "}
             <span className="text-gray-400">
               Maybe your company got some place over?
             </span>
