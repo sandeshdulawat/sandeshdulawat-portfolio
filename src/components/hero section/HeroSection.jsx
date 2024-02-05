@@ -1,4 +1,4 @@
-import React from "react";
+import {} from "react";
 import profileimage from "../../assets/images/profile.png";
 import { Facebook, Github, Instagram, Linkedin } from "lucide-react";
 import { Link } from "react-router-dom";
@@ -11,7 +11,7 @@ function HeroSection() {
           <h1 className="text-white font-bold text-3xl sm:text-4xl md:text-5xl">
             Hi, I am <span className="text-blue-500">Sandesh.</span>{" "}
           </h1>
-          <h2 className="text-white text-lg sm:text-md lg:text-lg lg:text-lg">
+          <h2 className="text-white text-lg sm:text-md lg:text-lg">
             Front-end Developer
           </h2>
           <h3 className="text-gray-400 text-sm sm:text-sm lg:text-md lg:text-md md:tracking-wide leading-4">

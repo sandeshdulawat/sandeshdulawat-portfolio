@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+.contact-form{
+    max-width: 50rem;
+    margin: auto;
+}
+.contact-inputs {
+    display: flex;
+    flex-direction: column;
+}

@@ -8,19 +8,14 @@ function About() {
           <h1 className=" font-bold text-white">About me</h1>
           <p className="text-gray-500">
             <span className=" text-white tracking-wider">I,m</span>{" "}
-            a Web Developer from Madhya Pradesh, India. who completed his
-            full stack developer course at{" "}
-            <span><a href="https://www.codingninjas.com/" target="blank_" className="text-blue-800 underline">Coding-Ninjas</a></span> and
-            pursuing full stack Developer course at{" "}
+            a Web Developer from (M.P), India, equipped with a Full Stack Developer certification from{" "}
+            <span><a href="https://www.codingninjas.com/" target="blank_" className="text-blue-800 underline">Coding-Ninjas.</a></span> Having successfully delivered various freelance projects, I am currently enhancing my skills through an advanced course with {" "}
             <span><a href="https://www.codingninjas.com/" target="blank_" className="text-blue-800 underline">Coding-Ninjas</a></span>.
           </p>
           <p className="text-gray-500">
-            I'm currently looking for a{" "}
-            <span className="text-gray-400">3-6 month internship</span>{" "}
-            somewhere around as web Developer.{" "}
-            <span className="text-gray-400">
-              Maybe your company got some place over?
-            </span>
+            I am eager to kickstart my career and am actively seeking both {" "}
+            <span className="text-gray-400">job opportunities and internships </span>{" "}
+            in Web Development. Your consideration for a position at your esteemed company would be greatly appreciated.
           </p>
         </div>
         <div className="space-y-5">

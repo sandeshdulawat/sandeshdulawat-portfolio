@@ -1,7 +1,6 @@
 import { Fragment, useState } from "react";
 import { Dialog, Transition } from "@headlessui/react";
 import { Ban, VenetianMask } from "lucide-react";
-import { initFlowbite } from "flowbite";
 
 function Modal() {
   // The open/closed state lives outside of the Dialog and is managed by you

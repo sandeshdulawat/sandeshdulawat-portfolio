@@ -1,4 +1,4 @@
-import React from "react";
+import {} from "react";
 import decorum from "../../assets/images/decorum.webp";
 import mazeStudio from "../../assets/images/mazestudio.webp";
 
@@ -18,10 +18,10 @@ function Projects() {
             {/* decorum furniture project */}
             <div className="flex flex-col justify-between px-4 leading-normal bg-[#1f2937] space-y-5 rounded-lg py-5">
               <div>
-                <h5 className="mb-2 text-xl md:text-2xl lg:text-3xl font-bold tracking-tight text-gray-900 text-white ">
+                <h5 className="mb-2 text-xl md:text-2xl lg:text-3xl font-bold tracking-tight  text-white ">
                   Decorum Furniture 2023
                 </h5>
-                <h5 className="mb-2 md:text-md tracking-tight text-gray-900 text-white ">
+                <h5 className="mb-2 md:text-md tracking-tight  text-white ">
                   E-Commerce website
                 </h5>
               </div>
@@ -86,10 +86,10 @@ function Projects() {
             {/* maze studio project */}
             <div className="flex flex-col justify-between px-4 leading-normal bg-[#1f2937] space-y-5 rounded-lg py-5">
               <div>
-                <h5 className="mb-2 text-xl md:text-2xl lg:text-3xl font-bold tracking-tight text-gray-900 text-white ">
+                <h5 className="mb-2 text-xl md:text-2xl lg:text-3xl font-bold tracking-tight text-white ">
                   Design Studio 2023
                 </h5>
-                <h5 className="mb-2 md:text-md tracking-tight text-gray-900 text-white ">
+                <h5 className="mb-2 md:text-md tracking-tight text-white ">
                   Architecture Design
                 </h5>
               </div>
