@@ -1,4 +1,6 @@
-import {} from "react";
+import React from "react";
+import Modal from "../modal/Modal";
+import { initFlowbite } from "flowbite";
 import { VenetianMask } from "lucide-react";
 
 function Navbar() {
@@ -26,13 +28,13 @@ function Navbar() {
           <a href="#about" className="block py-2 px-3  text-white md:hover:bg-transparent md:hover:text-blue-700 md:p-0 ">About</a>
         </li>
         <li>
-          <a href="#skills" className="block py-2 px-3 text-white md:hover:text-blue-700 md:p-0 ">Skills</a>
+          <a href="#skills" className="block py-2 px-3  text-white md:hover:text-blue-700 md:p-0 ">Skills</a>
         </li>
         <li>
-          <a href="#projects" className="block py-2 px-3 text-white md:hover:bg-transparent md:hover:text-blue-700 md:p-0 ">Projects</a>
+          <a href="#projects" className="block py-2 px-3  text-white md:hover:bg-transparent md:hover:text-blue-700 md:p-0 ">Projects</a>
         </li>
         <li>
-          <a href="#footercontact" className="block py-2 px-3 text-white md:hover:bg-transparent md:hover:text-blue-700 md:p-0 ">Contact</a>
+          <a href="#footercontact" className="block py-2 px-3  text-white md:hover:bg-transparent md:hover:text-blue-700 md:p-0 ">Contact</a>
         </li>
       </ul>
     </div>

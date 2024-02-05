@@ -1,4 +1,4 @@
-import {} from "react";
+import React from "react";
 import profileimage from "../../assets/images/profile.png";
 import { Facebook, Github, Instagram, Linkedin } from "lucide-react";
 import { Link } from "react-router-dom";
