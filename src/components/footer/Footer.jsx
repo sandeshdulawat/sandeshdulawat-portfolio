@@ -8,7 +8,7 @@ import {
 } from "lucide-react";
 import { Link } from "react-router-dom";
 
-const CV = "http://localhost:5174/Sandesh_CV.pdf";
+const CV = "https://sandeshdulawat.netlify.app/Sandesh_CV.pdf";
 
 function Footer() {
   const downloadFileAtURL = (url) => {
