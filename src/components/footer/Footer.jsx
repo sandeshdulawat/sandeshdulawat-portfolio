@@ -8,7 +8,7 @@ import {
 } from "lucide-react";
 import { Link } from "react-router-dom";
 
-const CV = "https://sandeshdulawat.netlify.app/Sandesh_CV.pdf";
+const CV = "https://firebasestorage.googleapis.com/v0/b/decorum-furniture.appspot.com/o/Sandesh%20CV.pdf?alt=media&token=b7cc5455-5b9c-43ba-9d4c-2bbeff14c778/Sandesh_CV.pdf";
 
 function Footer() {
   const downloadFileAtURL = (url) => {
