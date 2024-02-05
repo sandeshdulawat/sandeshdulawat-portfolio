@@ -8,23 +8,19 @@ import {
 } from "lucide-react";
 import { Link } from "react-router-dom";
 
-const DownloadCV = "https://firebasestorage.googleapis.com/v0/b/decorum-furniture.appspot.com/o/Sandesh_CV.pdf?alt=media&token=edb1a915-d056-4587-ac91-b80565289300";
+
+
 
 function Footer() {
-  const downloadFileAtURL = (url) => {
-    fetch(url)
-      .then((response) => response.blob())
-      .then((blob) => {
-        const blobURL = window.URL.createObjectURL(new Blob([blob]));
-        const fileName = url.split("/").pop();
-        const aTag = document.createElement("a");
-        aTag.href = blobURL;
-        aTag.setAttribute("download", fileName);
-        document.body.appendChild(aTag);
-        aTag.click();
-        aTag.remove();
-      });
-  };
+  const onButtonClick = () => {
+    const pdfUrl = "gs://decorum-furniture.appspot.com/SandeshCV.pdf";
+    const link = document.createElement("a");
+    link.href = pdfUrl;
+    link.download = "gs://decorum-furniture.appspot.com/SandeshCV.pdf"; // specify the filename
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+};
   return (
     <div
       className="bg-[#111827] text-center text-white space-y-5"
@@ -39,18 +35,13 @@ function Footer() {
           <ArrowUpRight size={16} className="text-blue-500" />
         </div> */}
         <div className="flex text-center justify-center items-center">
-          <a href="http://wa.me/+919174799616" target="blanket">Whatsapp</a>
+          <a href="http://wa.me/+919174799616" target="blanket">
+            Whatsapp
+          </a>
           <ArrowUpRight size={16} className="text-blue-500" />
         </div>
         <div className="flex text-center justify-center items-center">
-          <a
-            href="/"
-            onClick={() => {
-              downloadFileAtURL(DownloadCV)
-            }}
-          >
-            Download
-          </a>
+          <a href="/"  onClick={onButtonClick}>Download Resume</a>
           <ArrowUpRight size={16} className="text-blue-500" />
         </div>
         <div className="flex text-center justify-center items-center">
@@ -70,7 +61,10 @@ function Footer() {
           <Link to="https://www.instagram.com/sandeshdulawat/" target="blanket">
             <Instagram />
           </Link>
-          <Link to="https://www.linkedin.com/in/sandeshdulawat/" target="blanket">
+          <Link
+            to="https://www.linkedin.com/in/sandeshdulawat/"
+            target="blanket"
+          >
             <Linkedin />
           </Link>
         </div>

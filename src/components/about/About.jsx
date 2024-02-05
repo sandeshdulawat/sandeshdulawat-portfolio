@@ -34,7 +34,7 @@ function About() {
           <div>
             <a href="">
               <h1 className="text-blue-500">Mail_</h1>
-              <p className="text-gray-500">sdulawat9174799616@gmail.com</p>
+              <p className="text-gray-500">sdulawat.work@gmail.com</p>
             </a>
           </div>
         </div>
