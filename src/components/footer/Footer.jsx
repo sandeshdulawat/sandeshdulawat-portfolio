@@ -16,7 +16,7 @@ function Footer() {
     const pdfUrl = "gs://decorum-furniture.appspot.com/SandeshCV.pdf";
     const link = document.createElement("a");
     link.href = pdfUrl;
-    link.download = "gs://decorum-furniture.appspot.com/SandeshCV.pdf"; // specify the filename
+    link.download = "SandeshCV.pdf"; // specify the filename
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
