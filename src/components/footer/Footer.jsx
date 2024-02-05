@@ -8,19 +8,39 @@ import {
 } from "lucide-react";
 import { Link } from "react-router-dom";
 
+import firebase from 'firebase/app';
+import 'firebase/storage';
+
 
 
 
 function Footer() {
-  const onButtonClick = () => {
-    const pdfUrl = "gs://decorum-furniture.appspot.com/SandeshCV.pdf";
-    const link = document.createElement("a");
-    link.href = pdfUrl;
-    link.download = "SandeshCV.pdf"; // specify the filename
-    document.body.appendChild(link);
-    link.click();
-    document.body.removeChild(link);
-};
+
+  const onButtonClick = async () => {
+    try {
+      // Replace with your Firebase configuration
+      const firebaseConfig = {
+        apiKey: 'AIzaSyCJU7LYDL247ZnpzJr9YtcXWfM2YWS4UdI',
+        authDomain: 'https://sandeshdulawat.netlify.app/',
+      };
+
+      firebase.initializeApp(firebaseConfig);
+
+      const storage = firebase.storage();
+      const pdfRef = storage.ref('gs://decorum-furniture.appspot.com/SandeshCV.pdf'); // Replace with the actual path in your storage
+
+      const downloadURL = await pdfRef.getDownloadURL();
+
+      // Use the downloadURL in your application
+      console.log('PDF Download URL:', downloadURL);
+
+      // Perform any additional actions, like opening the PDF in a new window
+      window.open(downloadURL, '_blank');
+    } catch (error) {
+      console.error('Error:', error);
+    }
+  };
+
   return (
     <div
       className="bg-[#111827] text-center text-white space-y-5"
@@ -41,7 +61,7 @@ function Footer() {
           <ArrowUpRight size={16} className="text-blue-500" />
         </div>
         <div className="flex text-center justify-center items-center">
-          <a href="/"  onClick={onButtonClick}>Download Resume</a>
+        <button onClick={onButtonClick}>Download PDF</button>
           <ArrowUpRight size={16} className="text-blue-500" />
         </div>
         <div className="flex text-center justify-center items-center">
