@@ -14,7 +14,7 @@ function HeroSection() {
           <h2 className="text-white text-lg sm:text-md lg:text-lg">
             Front-end Developer
           </h2>
-          <h3 className="text-gray-400 text-sm sm:text-sm lg:text-md lg:text-md md:tracking-wide leading-4">
+          <h3 className="text-gray-400 text-sm sm:text-sm lg:text-md lg:text-md md:tracking-wide leading-4 text-balance">
           I specialize in crafting stunning websites for your business, bringing a wealth of experience in web design and development. With a keen eye for detail and a commitment to excellence, I ensure that your online presence not only looks impressive but also functions seamlessly to enhance your brand.
           </h3>
           <div className="flex space-x-5 text-blue-500 py-10">

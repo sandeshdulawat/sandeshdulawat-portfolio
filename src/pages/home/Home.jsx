@@ -14,7 +14,7 @@ function Home() {
         <About />
         <Education />
         <Projects />
-        <Contact />
+        {/* <Contact /> */}
     </Layout>
   )
 }

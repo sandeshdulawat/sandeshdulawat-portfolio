@@ -1,72 +1,76 @@
+import { Contact, Quote } from "lucide-react";
 import React from "react";
-import {
-  ArrowUpRight,
-  Facebook,
-  Github,
-  Instagram,
-  Linkedin,
-} from "lucide-react";
-import { Link } from "react-router-dom";
-
-
+import { MdOutlineLocationOn } from "react-icons/md";
+import { IoMailUnreadOutline } from "react-icons/io5";
+import { FiPhoneCall } from "react-icons/fi";
+import github from "../../assets/github.gif"
+import linkedin from "../../assets/linkedin.gif"
+import twitter from "../../assets/twitter.gif"
 
 
 function Footer() {
-
   return (
-    <div
-      className="bg-[#111827] text-center text-white space-y-5"
-      id="footercontact"
-    >
-      <div className="flex items-center justify-center space-x-1 py-5">
-        <h1 className="text-2xl">Contact</h1>
-      </div>
-      <div className="flex flex-col sm:flex-row md:flex-row justify-center sm:space-x-8 text-center text-gray-300 space-y-1 items-center ">
-        {/* <div className="flex text-center justify-center items-center">
-          <a href="/">Email Address </a>
-          <ArrowUpRight size={16} className="text-blue-500" />
-        </div> */}
-        <div className="flex text-center justify-center items-center">
-          <a href="http://wa.me/+919174799616" target="blanket">
-            Whatsapp
-          </a>
-          <ArrowUpRight size={16} className="text-blue-500" />
+    <div className=" bg-tertiary py-8" id="contact">
+      <div className="container ">
+        <div className="w-full grid mx-auto items-center text-center text-primary">
+          <Quote className="w-full mx-auto" />
+          <h1 className="text-xl">Develop a passion for learning. If you do, you will never cease to
+          grow.</h1>
         </div>
-        <div className="flex text-center justify-center items-center">
-          <a href="https://firebasestorage.googleapis.com/v0/b/decorum-furniture.appspot.com/o/SandeshCV.pdf?alt=media&token=9a92c794-a05a-4484-82de-f166d6f9577d" target="blanket">
-            <button >Download Resume</button>
-          </a>
-          
-          <ArrowUpRight size={16} className="text-blue-500" />
+        <div className="my-16 text-primary">
+          <div className="flex items-center justify-center gap-1">
+            <Contact size={36} className=""/>
+            <h1 className="uppercase text-5xl ">contact</h1>
+          </div>
         </div>
-        <div className="flex text-center justify-center items-center">
-          <a href="/">My Aims</a>
-          <ArrowUpRight size={16} className="text-blue-500" />
+        <div className=" grid md:flex justify-evenly items-center md:space-x-32 mx-auto my-6 md:my-32 gap-16">
+          <form  action="https://formspree.io/f/xdoqedjk" className="input flex flex-col gap-2 w-96 px-6">
+            <input
+              type="text"
+              placeholder="Name..."
+              required
+              className="p-2 md:p-3 rounded-xl shadow-darkBrown shadow-sm bg-transparent border-none outline-none text-primary"
+            />
+            <input
+              type="email"
+              placeholder="Email..."
+              required
+              className="p-2 md:p-3 rounded-xl shadow-darkBrown shadow-sm bg-transparent border-none outline-none text-primary"
+            />
+            <textarea
+              name="message"
+              id=""
+              cols="30"
+              rows="6"
+              placeholder="Message..."
+              autoComplete="off"
+              required
+              className="rounded-xl shadow-darkBrown shadow-sm bg-transparent border-none outline-none text-primary"
+            ></textarea>
+            <button type="submit" className="text-primary bg-darkBrown py-2 rounded-xl tracking-widest"> SEND</button>
+          </form>
+
+          <div className="contact-list md:w-3/6 md:space-y-8 px-6">
+            <div className="text-primary space-y-4">
+              <h1 className="border-b-4 border-darkBrown text-3xl">Get In touch</h1>
+              <p className="text-balance font-thin font-monst tracking-wide">I look forward to connecting with you and am happy to discuss any inquiries or opportunities. Feel free to reach out to me through any of the following methods.</p>
+            </div>
+            <div className="text-primary space-y-4">
+              <h1 className="border-b-4 border-darkBrown text-3xl">My Address</h1>
+              <p className="text-balance flex items-center gap-2"><MdOutlineLocationOn /> krishnapuram colony, Guna (M.P)</p>
+              <p className="text-balance flex items-center gap-2"><FiPhoneCall/>+91 917499616</p>
+              <p className="text-balance flex items-center gap-2"><IoMailUnreadOutline/>sdulawat.work@gamil.com</p>
+            </div>
+          </div>
         </div>
-      </div>
-      <div className="flex flex-col py-5 sm:flex-row md:flex-row space-y-3 align-center text-center justify-between sm:px-10 md:px-10 items-center">
-        <div>English (INDIA)</div>
-        <div className="flex text-blue-500 space-x-5 justify-center sm:pl-24 lg:pl-16">
-          <Link to="https://github.com/sandeshdulawat" target="blanket">
-            <Github />
-          </Link>
-          <Link to="https://www.facebook.com/sandesh.dulawat/" target="blanket">
-            <Facebook />
-          </Link>
-          <Link to="https://www.instagram.com/sandeshdulawat/" target="blanket">
-            <Instagram />
-          </Link>
-          <Link
-            to="https://www.linkedin.com/in/sandeshdulawat/"
-            target="blanket"
-          >
-            <Linkedin />
-          </Link>
-        </div>
-        <div>
-          <p className="text-sm text-gray-400">
-            ©2023 All Right Reserved By Sandesh Dulawat.
-          </p>
+
+        <div className="flex justify-center items-center gap-4">
+          <a href=""><img src={github} alt="" className="rounded-full shadow-md shadow-darkBrown border-8 border-primary"/></a>
+          <a href=""><img src={linkedin} alt="" className="rounded-lg shadow-md shadow-darkBrown border-8 border-primary"/></a>
+          <a href=""><img src={twitter} alt="" className="rounded-full shadow-md shadow-darkBrown border-8 border-primary"/></a>
+        
+        
+        
         </div>
       </div>
     </div>
