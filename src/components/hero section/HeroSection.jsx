@@ -1,5 +1,5 @@
 import React from "react";
-import profileimage from "../../assets/images/profileIMG.jpg";
+import profileimage from "../../assets/images/profileIMG.webp";
 
 function HeroSection() {
   const skillData = [
@@ -49,7 +49,7 @@ function HeroSection() {
           className="h-44 w-full mx-auto backdrop-blur-lg"
           style={{
             backgroundImage:
-              "url(https://firebasestorage.googleapis.com/v0/b/decorum-furniture.appspot.com/o/portfolio%2Fcover1.png?alt=media&token=cf44dd4b-b9aa-4e5d-950a-8a67d72dde6a)",
+              "url(https://firebasestorage.googleapis.com/v0/b/decorum-furniture.appspot.com/o/portfolio%2Fcover1.webp?alt=media&token=248eb5ea-23d9-479e-8bd5-a90783b17bcb)",
             backgroundSize: "cover",
             backgroundRepeat: "no-repeat",
           }}
