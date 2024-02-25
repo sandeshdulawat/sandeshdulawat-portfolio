@@ -23,7 +23,7 @@ function Footer() {
             <h1 className="uppercase text-5xl ">contact</h1>
           </div>
         </div>
-        <div className=" max-w-screen-lg w-full grid md:flex md:justify-end items-center mx-auto my-6 md:my-32 ">
+        {/* <div className=" max-w-screen-lg w-full grid md:flex md:justify-end items-center mx-auto my-6 md:my-32 ">
           <form  action="https://formspree.io/f/xdoqedjk" className="input flex flex-col gap-2 w-fit px-6">
             <input
               type="text"
@@ -62,7 +62,7 @@ function Footer() {
               <p className="text-balance flex items-center gap-2"><IoMailUnreadOutline/>sdulawat.work@gamil.com</p>
             </div>
           </div>
-        </div>
+        </div> */}
 
         <div className="flex justify-center items-center gap-4">
           <a href=""><img src={github} alt="" className=" w-12 md:w-full rounded-full shadow-md shadow-darkBrown border-8 border-primary"/></a>
