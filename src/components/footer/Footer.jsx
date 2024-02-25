@@ -10,7 +10,7 @@ import twitter from "../../assets/twitter.gif"
 
 function Footer() {
   return (
-    <div className=" bg-primary py-8" id="contact">
+    <div className=" bg-primary py-8 overflow-hidden" id="contact">
       <div className=" w-full mx-auto">
         <div className="w-full grid mx-auto items-center text-center text-white">
           <Quote className="w-full mx-auto" />
