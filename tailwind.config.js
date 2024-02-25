@@ -14,13 +14,15 @@ export default {
         opensans: ['Open Sans'],
         orb: ['Orbitron'],
         curs: ['Cedarville Cursive'],
+        protest: ["Protest Revolution"],
       },
       colors: {
-        primary: "#fff",
-        secondary: "#f6f6f6",
+        primary: "#14131a",
+        secondary: "#1c1b23",
         tertiary: "#2b2a2a",
         purple: "#4e00bb",
-        darkBrown: "#916f00",
+        darkBrown: "#554100",
+        primaryBlue: "#14131a",
       },
       keyframes:{
         'scrollDown':{

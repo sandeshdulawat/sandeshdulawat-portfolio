@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;600;700;800;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Open+Sans:wght@400;500;600;700;800&family=Orbitron:wght@400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Protest+Revolution&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -20,4 +21,23 @@
 .contact-inputs {
     display: flex;
     flex-direction: column;
+}
+
+
+.nav-link {
+  display: block;
+  padding: 0.5rem 1rem;
+  background-color: #1c1b23;
+  color: white;
+  text-decoration: none;
+}
+
+.nav-link:hover {
+  color: yellowgreen ;
+}
+
+.nav-link.active {
+  color: yellowgreen; 
+  border-bottom: 2px solid yellowgreen;
+  border-radius: 4px;
 }

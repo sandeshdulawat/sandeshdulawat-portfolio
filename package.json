@@ -11,6 +11,8 @@
   },
   "dependencies": {
     "@headlessui/react": "^1.7.17",
+    "@tsparticles/engine": "^3.2.1",
+    "@tsparticles/react": "^3.0.0",
     "firebase": "^10.8.0",
     "flowbite": "^2.2.0",
     "flowbite-react": "^0.7.0",

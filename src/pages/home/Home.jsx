@@ -3,8 +3,8 @@ import Layout from '../../components/layout/Layout'
 import HeroSection from '../../components/hero section/HeroSection'
 import Projects from '../../components/projects/Projects'
 import About from '../../components/about/About'
-import Education from '../../components/education/Education'
-import Contact from '../../components/contact/Contact'
+// import Education from '../../components/education/Education'
+// import Contact from '../../components/contact/Contact'
 
 
 function Home() {
@@ -12,7 +12,7 @@ function Home() {
     <Layout>
         <HeroSection />
         <About />
-        <Education />
+        {/* <Education /> */}
         <Projects />
         {/* <Contact /> */}
     </Layout>
