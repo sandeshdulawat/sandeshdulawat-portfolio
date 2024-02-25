@@ -24,7 +24,7 @@ function Footer() {
           </div>
         </div>
         <div className=" max-w-screen-lg w-full md:flex md:justify-end items-center mx-auto my-6 md:my-32 space-y-12">
-          <form  action="https://formspree.io/f/xdoqedjk" className="input flex flex-col gap-2 w-full px-6">
+          <form  action="https://formspree.io/f/xdoqedjk" className="input flex flex-col gap-2 w-full md:w-fit px-6">
             <input
               type="text"
               placeholder="Name..."
@@ -64,13 +64,10 @@ function Footer() {
           </div>
         </div>
 
-        <div className="flex justify-center items-center gap-4">
-          <a href="https://github.com/sandeshdulawat" target="_blanket" ><img src={github} alt="" className=" w-12 md:w-full rounded-full shadow-md shadow-darkBrown border-8 border-primary"/></a>
-          <a href="https://www.linkedin.com/in/sandeshdulawat/" target="_blanket" ><img src={linkedin} alt="" className=" w-12 md:w-full rounded-lg shadow-md shadow-darkBrown border-8 border-primary"/></a>
-          <a href="https://www.instagram.com/sandeshdulawat/" target="_blanket" ><img src={instagram} alt="" className=" w-12 md:w-full rounded-full shadow-md shadow-darkBrown border-8 border-primary"/></a>
-        
-        
-        
+        <div className="w-fit mx-auto flex md:justify-center md:w-full gap-4 "> 
+          <a href="https://github.com/sandeshdulawat" target="_blanket" ><img src={github} alt="" className=" w-12 hover:scale-105 duration-300 hover:-translate-y-1"/></a>
+          <a href="https://www.linkedin.com/in/sandeshdulawat/" target="_blanket" ><img src={linkedin} alt="" className=" w-12 hover:scale-105 duration-300 hover:-translate-y-1"/></a>
+          <a href="https://www.instagram.com/sandeshdulawat/" target="_blanket" ><img src={instagram} alt="" className=" w-12 hover:scale-105 duration-300 hover:-translate-y-1"/></a>
         </div>
       </div>
     </div>

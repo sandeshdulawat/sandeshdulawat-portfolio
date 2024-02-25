@@ -5,7 +5,7 @@ function Navbar() {
   const navData = [
     { title: "Home", link: "#" },
     { title: "Projects", link: "#projects" },
-    { title: "Education", link: "#education" },
+    // { title: "Education", link: "#education" },
     { title: "About", link: "#about" },
     { title: "Contact", link: "#contact" },
   ];
