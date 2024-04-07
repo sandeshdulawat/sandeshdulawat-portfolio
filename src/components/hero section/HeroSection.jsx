@@ -43,7 +43,6 @@ function HeroSection() {
 
   return (
     <div className="bg-primary md:h-[90vh]">
-      
       <div className="h-96 md:h-auto flex items-start object-center">
         <div
           className="h-44 w-full mx-auto backdrop-blur-lg"
@@ -64,13 +63,15 @@ function HeroSection() {
               <h1 className="text-white text-center text-3xl sm:text-xl md:text-3xl font-monst mt-2 md:mt-0">
                 Sandesh Dulawat
               </h1>
-              <p className="text-gray-400 font-pop text-center md:text-left md:ml-2">Web Developer</p>
+              <p className="text-gray-400 font-pop text-center md:text-left md:ml-2">
+                Web Developer
+              </p>
             </div>
           </div>
         </div>
       </div>
 
-            {/* skill card */}
+      {/* skill card */}
       <div className="h-full md:h-full w-full flex flex-col max-w-screen-lg justify-center mx-auto container py-6 ">
         <div>
           <h1 className="text-white text-lg py-4">What I know</h1>
@@ -87,7 +88,9 @@ function HeroSection() {
               <div className="flex flex-wrap gap-2">
                 {card.titles.map((title, i) => (
                   <div
-                    className={`rounded-md bg-primary text-xs text-gray-400 p-2 ${getColorClass(i)}`}
+                    className={`rounded-md bg-primary text-xs text-gray-400 p-2 ${getColorClass(
+                      i
+                    )}`}
                     key={i}
                   >
                     {title}
@@ -97,6 +100,30 @@ function HeroSection() {
             </div>
           ))}
         </div>
+      </div>
+
+      <div class="icon-bar">
+        <a href="#" class="facebook" target="_blank">
+          Github <i class=" fab fa-github"></i>
+        </a>
+        <a href="" class="linkedin" target="_blank">
+          LinkedIn <i class=" fab fa-linkedin"></i>
+        </a>
+        <a
+          href="https://www.instagram.com/vinodthapa55/"
+          class="instagram"
+          target="_blank"
+        >
+          Instagram <i class="fab fa-instagram"></i>
+        </a>
+        
+        <a
+          href="https://www.youtube.com/thapatechnical"
+          class="youtube"
+          target="_blank"
+        >
+          Youtube <i class=" fab fa-youtube-square"></i>
+        </a>
       </div>
     </div>
   );

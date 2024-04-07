@@ -7,15 +7,15 @@ function About() {
         <div className="prose ">
           <h1 className=" font-bold text-white">About me</h1>
           <p className="text-gray-500">
-            <span className=" text-white tracking-wider">I,m</span>{" "}
-            a Web Developer from (M.P), India, equipped with a Full Stack Developer certification from{" "}
-            <span><a href="https://www.codingninjas.com/" target="blank_" className="text-blue-800 underline">Coding-Ninjas.</a></span> Having successfully delivered various freelance projects, I am currently enhancing my skills through an advanced course with {" "}
-            <span><a href="https://www.codingninjas.com/" target="blank_" className="text-blue-800 underline">Coding-Ninjas</a></span>.
+            <span className=" text-white tracking-wider">I am </span>{" "}
+            a Web Developer from Madhya Pradesh, India, equipped with a Full Stack Developer certification from {" "}
+            <span><a href="https://www.codingninjas.com/" target="blank_" className="text-blue-800 underline">Coding-Ninjas.</a></span> Alongside successfully delivering various freelance projects, I am currently enhancing my skills through an advanced course with {" "}
+            <span><a href="https://www.codingninjas.com/" target="blank_" className="text-blue-800 underline">Coding-Ninjas,</a></span> focusing on WordPress and Wix development.
           </p>
           <p className="text-gray-500">
-            I am eager to kickstart my career and am actively seeking both {" "}
+          I am eager to kickstart my career and am actively seeking {" "}
             <span className="text-gray-400">job opportunities and internships </span>{" "}
-            in Web Development. Your consideration for a position at your esteemed company would be greatly appreciated.
+            in Web Development, with proficiency in WordPress and Wix development. Your consideration for a position at your esteemed company would be greatly appreciated.
           </p>
         </div>
         <div className="space-y-5">
