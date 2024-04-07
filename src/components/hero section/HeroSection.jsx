@@ -106,7 +106,7 @@ function HeroSection() {
         <a href="https://github.com/sandeshdulawat" class="facebook" target="_blank">
           Github <i class=" fab fa-github"></i>
         </a>
-        <a href="https://www.linkedin.com/in/sandeshdulawats" class="linkedin" target="_blank">
+        <a href="https://www.linkedin.com/in/sandeshdulawat" class="linkedin" target="_blank">
           LinkedIn <i class=" fab fa-linkedin"></i>
         </a>
         <a
