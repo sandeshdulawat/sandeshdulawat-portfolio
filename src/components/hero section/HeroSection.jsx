@@ -103,14 +103,14 @@ function HeroSection() {
       </div>
 
       <div class="icon-bar">
-        <a href="#" class="facebook" target="_blank">
+        <a href="https://github.com/sandeshdulawat" class="facebook" target="_blank">
           Github <i class=" fab fa-github"></i>
         </a>
-        <a href="" class="linkedin" target="_blank">
+        <a href="https://www.linkedin.com/in/sandeshdulawats" class="linkedin" target="_blank">
           LinkedIn <i class=" fab fa-linkedin"></i>
         </a>
         <a
-          href="https://www.instagram.com/vinodthapa55/"
+          href="https://www.instagram.com/sandeshdulawat"
           class="instagram"
           target="_blank"
         >
@@ -118,7 +118,7 @@ function HeroSection() {
         </a>
         
         <a
-          href="https://www.youtube.com/thapatechnical"
+          href="https://youtube.com/@sandeshdulawat"
           class="youtube"
           target="_blank"
         >
