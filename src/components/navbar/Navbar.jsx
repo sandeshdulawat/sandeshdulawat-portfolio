@@ -83,7 +83,7 @@ function Navbar() {
         <div
           className={`${
             isOpen ? "block" : "hidden"
-          } absolute inset-0 mt-12 md:relative md:block md:w-auto bg-[#1c1b23]`} // Update visibility based on menu state
+          } absolute inset-0 mt-12 sm:mt-0 md:mt-0 md:relative md:block md:w-auto bg-[#1c1b23]`} // Update visibility based on menu state
           id="navbar-default"
         >
           <ul className="bg-[#1c1b23] font-medium flex flex-col p-4 md:p-0 mt-4 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0">
