@@ -54,6 +54,14 @@
 	-ms-transform: translateY(-50%);
 	z-index: 10;
 }
+.mobile-icon-bar {
+	position: fixed;
+	bottom: 0%;
+	right: 0%;
+	left: 0%;
+	z-index: 10;
+	display: flex;
+}
 
 .icon-bar a {
 	text-decoration: none;
@@ -68,6 +76,24 @@
 	transform: translateX(-170px);
 	-webkit-transform: translateX(-170px);
 	-ms-transform: translateX(-170px);
+	transition: all 0.5s linear;
+	-webkit-transition: all 0.5s linear;
+	-ms-transition: all 0.5s linear;
+}
+.mobile-icon-bar a {
+	text-decoration: none;
+	width: 100%;
+	background: #3b5999;
+	color: #fff;
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	gap: 5px;
+	padding: 10px 15px ;
+	font-size: 10px;
+	transform: translateX(0px);
+	-webkit-transform: translateX(0px);
+	-ms-transform: translateX(0px);
 	transition: all 0.5s linear;
 	-webkit-transition: all 0.5s linear;
 	-ms-transition: all 0.5s linear;

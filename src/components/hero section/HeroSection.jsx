@@ -102,7 +102,31 @@ function HeroSection() {
         </div>
       </div>
 
-      <div class="icon-bar">
+      <div class="icon-bar hidden sm:block md:block">
+        <a href="https://github.com/sandeshdulawat" class="facebook" target="_blank">
+          Github <i class=" fab fa-github"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/sandeshdulawat" class="linkedin" target="_blank">
+          LinkedIn <i class=" fab fa-linkedin"></i>
+        </a>
+        <a
+          href="https://www.instagram.com/sandeshdulawat"
+          class="instagram"
+          target="_blank"
+        >
+          Instagram <i class="fab fa-instagram"></i>
+        </a>
+        
+        <a
+          href="https://youtube.com/@sandeshdulawat"
+          class="youtube"
+          target="_blank"
+        >
+          Youtube <i class=" fab fa-youtube-square"></i>
+        </a>
+      </div>
+
+      <div class="mobile-icon-bar block sm:hidden md:hidden">
         <a href="https://github.com/sandeshdulawat" class="facebook" target="_blank">
           Github <i class=" fab fa-github"></i>
         </a>
