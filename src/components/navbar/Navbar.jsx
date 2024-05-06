@@ -9,21 +9,20 @@ function Navbar() {
     { title: "About", link: "#about" },
     { title: "Contact", link: "#contact" },
   ];
-
-  const [activeIndex, setActiveIndex] = useState(0); // Initialize with default active index
-  const [isOpen, setIsOpen] = useState(false); // State to manage menu visibility
+  const [activeIndex, setActiveIndex] = useState(0);
+  const [isOpen, setIsOpen] = useState(false);
 
   const handleItemClick = (index) => {
     setActiveIndex(index);
-    setIsOpen(false); // Close the menu after clicking on an item
+    setIsOpen(false);
   };
 
   const toggleMenu = () => {
-    setIsOpen(!isOpen); // Toggle menu visibility
+    setIsOpen(!isOpen);
   };
 
   return (
-    <nav className="bg-[#1c1b23] sticky top-0 w-full shadow-sm shadow-green-400 z-50">
+    <nav className="bg-[#1c1b23] sticky top-0 w-full shadow-sm shadow-blue-500 z-50">
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4 relative">
         <a href="/" className="flex">
           <span className="self-center text-2xl font-semibold whitespace-nowrap font-protest uppercase text-white">
@@ -33,7 +32,7 @@ function Navbar() {
         </a>
         {isOpen ? (
           <button
-            onClick={toggleMenu} // Add onClick handler to toggle menu
+            onClick={toggleMenu}
             type="button"
             className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden"
           >
@@ -56,11 +55,11 @@ function Navbar() {
           </button>
         ) : (
           <button
-            onClick={toggleMenu} // Add onClick handler to toggle menu
+            onClick={toggleMenu}
             type="button"
             className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden"
             aria-controls="navbar-default"
-            aria-expanded={isOpen ? "true" : "false"} // Update aria-expanded based on menu state
+            aria-expanded={isOpen ? "true" : "false"}
           >
             <span className="sr-only">Open main menu</span>
             <svg
@@ -83,7 +82,7 @@ function Navbar() {
         <div
           className={`${
             isOpen ? "block" : "hidden"
-          } absolute inset-0 mt-12 sm:mt-0 md:mt-0 md:relative md:block md:w-auto bg-[#1c1b23]`} // Update visibility based on menu state
+          } absolute inset-0 mt-12 sm:mt-0 md:mt-0 md:relative md:block md:w-auto bg-[#1c1b23]`}
           id="navbar-default"
         >
           <ul className="bg-[#1c1b23] font-medium flex flex-col p-4 md:p-0 mt-4 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0">

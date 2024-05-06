@@ -34,12 +34,12 @@
 }
 
 .nav-link:hover {
-  color: yellowgreen ;
+  color: #3261cd ;
 }
 
 .nav-link.active {
-  color: yellowgreen; 
-  border-bottom: 2px solid yellowgreen;
+  color: #3261cd; 
+  border-bottom: 2px solid #3261cd;
   border-radius: 4px;
 }
 
