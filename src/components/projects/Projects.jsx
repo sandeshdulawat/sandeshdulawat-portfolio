@@ -43,7 +43,7 @@ function Projects() {
               </p>
               <div className="space-x-3">
                 <a
-                  href="https://zesty-sunshine-9fc40f.netlify.app/"
+                  href="https://chimerical-cuchufli-30d726.netlify.app/"
                   target="blank_"
                   className="inline-flex items-center px-2 py-2 md:px-3 md:py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 align-center"
                 >
