@@ -3,7 +3,7 @@ import decorum from "../../assets/images/decorum.webp";
 import mazeStudio from "../../assets/images/mazestudio.webp";
 import archazine from "../../assets/images/archazine-fullpage.webp";
 import lodha from "../../assets/images/lodhabellevues-fullpage.webp";
-import isanction from "../../assets/images/isanction.webp";
+import isanction from "../../assets/images/isanction.png";
 import GreenEnergy from "../../assets/images/green.png";
 
 function Projects() {
@@ -44,7 +44,7 @@ function Projects() {
               </p>
               <div className="space-x-3">
                 <a
-                  href="https://chimerical-cuchufli-30d726.netlify.app/"
+                  href="https://isanction-testing.netlify.app"
                   target="blank_"
                   className="inline-flex items-center px-2 py-2 md:px-3 md:py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 align-center"
                 >
