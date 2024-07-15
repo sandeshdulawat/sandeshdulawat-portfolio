@@ -244,11 +244,6 @@ function Projects() {
               </div>
             </div>
           </a>
-          <div className="absolute top-0 right-0">
-            <span class="flex text-lg md:flex items-center text-red-700 font-bold uppercase">
-              <span class="w-3 h-3 mr-3 relative live_icon"></span> Live
-            </span>
-          </div>
         </div>
 
         {/* archazine project */}
