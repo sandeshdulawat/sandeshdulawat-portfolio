@@ -82,7 +82,7 @@ function Footer() {
                 </p>
                 <p className="text-balance flex items-center gap-2">
                   <IoMailUnreadOutline />
-                  sdulawat.work@gamil.com
+                  sdulawat.work@gmail.com
                 </p>
               </div>
             </div>
