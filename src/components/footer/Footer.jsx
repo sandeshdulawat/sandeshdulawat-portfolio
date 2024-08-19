@@ -78,7 +78,7 @@ function Footer() {
                 </p> */}
                 <p className="text-balance flex items-center gap-2">
                   <FiPhoneCall />
-                  +91 917499616
+                  +91 9174799616
                 </p>
                 <p className="text-balance flex items-center gap-2">
                   <IoMailUnreadOutline />
