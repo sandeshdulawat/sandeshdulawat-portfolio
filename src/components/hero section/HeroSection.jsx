@@ -58,6 +58,7 @@ function HeroSection() {
               src={profileimage}
               alt=""
               className=" w-60 h-60 mx-auto bg-cover rounded-full border-4"
+              loading="lazy"
             />
             <div>
               <h1 className="text-white text-center text-3xl sm:text-xl md:text-3xl font-monst mt-2 md:mt-0">
