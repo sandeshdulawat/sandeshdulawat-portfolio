@@ -273,7 +273,7 @@ function Projects() {
               </p>
               <div className="space-x-3">
                 <a
-                  href="https://archazine-project.netlify.app/"
+                  href="https://archazine.netlify.app"
                   target="blank_"
                   className="inline-flex items-center px-2 py-2 md:px-3 md:py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 align-center"
                 >
@@ -349,7 +349,7 @@ function Projects() {
                 with React.js, Node.js, Express.js, MongoDB, and Tailwind CSS.
                 The website is responsive and has a clean & modern design.
               </p>
-              <div className="space-x-3">
+              {/* <div className="space-x-3">
                 <a
                   href="https://www.mazestudio.in/"
                   target="blank_"
@@ -392,7 +392,7 @@ function Projects() {
                     />
                   </svg>
                 </a>
-              </div>
+              </div> */}
             </div>
           </a>
           <div className="absolute top-0 right-0">
