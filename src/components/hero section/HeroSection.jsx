@@ -57,7 +57,7 @@ function HeroSection() {
             <img
               src={profileimage}
               alt=""
-              className=" w-60 h-60 mx-auto bg-cover rounded-full border-4"
+              className=" w-60 h-60 mx-auto object-cover rounded-full border-4"
               loading="lazy"
             />
             <div>
