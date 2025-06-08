@@ -11,10 +11,10 @@
   },
   "dependencies": {
     "@headlessui/react": "^1.7.17",
-    "@tsparticles/engine": "^3.2.1",
+    "@tsparticles/engine": "^3.5.0",
     "@tsparticles/react": "^3.0.0",
-    "firebase": "^10.8.0",
-    "flowbite": "^2.2.0",
+    "firebase": "^10.13.1",
+    "flowbite": "^2.5.1",
     "flowbite-react": "^0.7.0",
     "lucide-react": "^0.293.0",
     "react": "^18.2.0",
